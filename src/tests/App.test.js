@@ -8,13 +8,13 @@ describe('', () => {
   it('Testa se o topo da aplicação contém um conjunto fixo de links de navegação', () => {
     renderWithRouter(<App />);
     const home = screen.getByRole('link', {
-      name: 'Home',
+      name: /home/i,
     });
     const about = screen.getByRole('link', {
-      name: 'About',
+      name: /about/i,
     });
     const favoritePokemons = screen.getByRole('link', {
-      name: 'Favorite Pokémons',
+      name: /favorite pokémons/i,
     });
     expect(home).toBeInTheDocument();
     expect(about).toBeInTheDocument();
