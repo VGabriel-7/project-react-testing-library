@@ -5,7 +5,7 @@ import renderWithHouter from './utils/renderWithHouter';
 import FavoritePokemons from '../pages/FavoritePokemons';
 import App from '../App';
 
-describe('Componente FavoritePokemons', () => {
+describe('Componente <FavoritePokemons />', () => {
   it(`Testa se é exibida a mensagem "No favorites pokemon found",
   caso a pessoa não tenho pokémons favoritos`, () => {
     renderWithHouter(<FavoritePokemons />);

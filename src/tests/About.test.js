@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import renderWithHouter from './utils/renderWithHouter';
 import About from '../pages/About';
 
-describe('Testa as informações da página About', () => {
+describe('Component <About />', () => {
   it('Testa se a página contém as informações sobre a pokedex', () => {
     renderWithHouter(<About />);
     const title = screen.getByRole('heading', {

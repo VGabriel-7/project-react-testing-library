@@ -4,7 +4,7 @@ import EventUser from '@testing-library/user-event';
 import renderWithRouter from './utils/renderWithHouter';
 import App from '../App';
 
-describe('', () => {
+describe('Component <App />', () => {
   it('Testa se o topo da aplicação contém um conjunto fixo de links de navegação', () => {
     renderWithRouter(<App />);
     const home = screen.getByRole('link', {
