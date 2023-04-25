@@ -13,15 +13,15 @@
 
   - `npm install`.
   
-  3. Crie uma branch a partir da branch `master`
+  3. Crie uma branch a partir da branch `main`
 
-  - Verifique que você está na branch `master`
+  - Verifique que você está na branch `main`
     - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `master`
-    - Exemplo: `git checkout master`
+  - Se não estiver, mude para a branch `main`
+    - Exemplo: `git checkout main`
   - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
     - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-project-react-testing-library`
+    - Exemplo: `git checkout -b xaolin-project-react-testing-library`
 
   4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
 
@@ -30,7 +30,7 @@
   - Adicione o novo arquivo ao _stage_ do Git
     - Exemplo:
       - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-      - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
+      - `git status` (deve aparecer listado o arquivo _xaolin/README.md_ em verde)
   - Faça o `commit` inicial
     - Exemplo:
       - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
@@ -38,7 +38,7 @@
 
   5. Adicione a sua branch com o novo `commit` ao repositório remoto
 
-  - Usando o exemplo anterior: `git push -u origin joaozinho-project-react-testing-library`
+  - Usando o exemplo anterior: `git push -u origin xaolin-project-react-testing-library`
 </details>
 
 # Requisitos
